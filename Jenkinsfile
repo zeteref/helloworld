@@ -15,7 +15,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('error') {
           agent {
             docker {
               image 'alpine'
@@ -30,7 +30,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       agent {
         docker {
           image 'alpine'
